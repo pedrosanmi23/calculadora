@@ -18,9 +18,9 @@ else
 	
 	if grep -q $2 /etc/group
 		then
-			echo "El grupo $grupo existe"
+			echo "El grupo $2 existe"
 		else
-			echo "El grupo $grupo no existe"
+			echo "El grupo $2 no existe"
 		fi	
 fi
 
