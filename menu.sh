@@ -9,7 +9,9 @@ do
 		read usuario
 		bash ./1y3.sh 1 $usuario
 	elif [[ $opcion == "ComprobarEspacio" ]]; then
-		echo " Espacio"
+		echo "Ruta donde comprobar el espacio que ocupa"
+		read ruta
+		bash ./2y4.sh 1 $ruta
 	elif [[ $opcion = "ComprobarGrupo" ]]; then
 		echo " Nombre del grupo a comprobar"
 		read grupo
