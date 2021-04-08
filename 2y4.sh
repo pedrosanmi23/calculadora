@@ -11,8 +11,9 @@ else
 	#Funcionalidad 4 - Buscar una palabra clave en un fichero
 	if [ -f $2 ];
 	then
-		if grep --color $3 $2;
+		if grep --color $3 $2 > /dev/null;
 		then
+			
 			grep --color $3 $2
 		else
 			echo "La palabra no existe en el fichero"
