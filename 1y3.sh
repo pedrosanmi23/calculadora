@@ -15,8 +15,8 @@ else
 	fi
 fi
 else
-	read -p "Introduce el nombre de un grupo: " grupo
-	if grep -q $grupo /etc/group
+	
+	if grep -q $2 /etc/group
 		then
 			echo "El grupo $grupo existe"
 		else
