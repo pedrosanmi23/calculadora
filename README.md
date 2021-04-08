@@ -14,6 +14,10 @@ El script realiza la siguientes acciones en funcion de la operación solicitada:
 4. Comprobar si existe una palabra dentro de un fichero de texto.
 5. Cerrar el programa.
 
+## Ejemplo de como funciona el script.
+Comprobar si un usuario existe
+
+
 El menú cuenta diferentes opciones, en función de la que introduzca el usuario ejecutará un fichero u otro. Dentro de cada fichero
 tenemos dos fucnionalidades, por lo que le pasaremos un parametro al inicio para diferenciar cual es la que se tiene que ejecutar.
 
