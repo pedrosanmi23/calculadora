@@ -7,7 +7,7 @@ if [[ $1 -eq 1 ]]; then
 	echo "Es necesario un parametro"
 	exit
 else
-	id -u $2 > /dev/null
+	id -u $2 2> /dev/null
 	if [[ $? -eq 0 ]]; then
 		echo "El usuario $2 si existe en el sistema"
 	else
