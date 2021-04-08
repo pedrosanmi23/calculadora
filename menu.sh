@@ -11,7 +11,9 @@ do
 	elif [[ $opcion == "ComprobarEspacio" ]]; then
 		echo " Espacio"
 	elif [[ $opcion = "ComprobarGrupo" ]]; then
-		echo " Grupo"
+		echo " Nombre del grupo a comprobar"
+		read grupo
+		bash ./1y3.sh 2 $grupo
 	elif [[ $opcion == "BuscarClave" ]]; then
 		echo "Clave"
 	elif [[ $opcion == "Salir" ]]; then
