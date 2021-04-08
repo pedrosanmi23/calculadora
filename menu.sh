@@ -7,7 +7,7 @@ do
 	if [[ $opcion == "ComprobarUsuario" ]]; then
 		echo "Nombre del usuario a comprobar:"
 		read usuario
-		echo "$usuario"
+		bash ./1y3.sh 1 $usuario
 	elif [[ $opcion == "ComprobarEspacio" ]]; then
 		echo " Espacio"
 	elif [[ $opcion = "ComprobarGrupo" ]]; then
