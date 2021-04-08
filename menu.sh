@@ -17,7 +17,11 @@ do
 		read grupo
 		bash ./1y3.sh 2 $grupo
 	elif [[ $opcion == "BuscarClave" ]]; then
-		echo "Clave"
+		echo "Introduce la ruta del fichero: "
+		read ruta
+		echo "Introduce la palabra calve: "
+		read palabra
+		bash ./2y4.sh 2 $ruta $palabra
 	elif [[ $opcion == "Salir" ]]; then
 		exit
 	else
