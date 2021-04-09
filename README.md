@@ -15,7 +15,21 @@ El script realiza la siguientes acciones en funcion de la operación solicitada:
 5. Cerrar el programa.
 
 ## Ejemplo de como funciona el script.
-Comprobar si un usuario existe
+Comprobar si un usuario existe:
+
+![imagen](https://user-images.githubusercontent.com/79518642/114142995-df9d7a00-9913-11eb-9cf3-26c7c09ea740.png)
+
+Comprobar si un grupo existe en el sistema:
+
+![imagen](https://user-images.githubusercontent.com/79518642/114143150-11aedc00-9914-11eb-9858-fcf9f3c7d44e.png)
+
+Visualizar el tamaño de un directorio o fichero:
+
+![imagen](https://user-images.githubusercontent.com/79518642/114143412-69e5de00-9914-11eb-97c2-7832a898d348.png)
+
+Comprobar si existe una palabra dentro de un fichero:
+
+![imagen](https://user-images.githubusercontent.com/79518642/114143832-eb3d7080-9914-11eb-93f1-c9892c36f68b.png)
 
 
 El menú cuenta diferentes opciones, en función de la que introduzca el usuario ejecutará un fichero u otro. Dentro de cada fichero
